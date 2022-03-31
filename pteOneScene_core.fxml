@@ -52,6 +52,16 @@
                   <Button fx:id="loadQaperfutils" mnemonicParsing="false" onAction="#loadQaperfutilScene" prefHeight="55.0" prefWidth="268.0" style="-fx-background-color: #FFFFFf; -fx-background-radius: 30 30 30 30;" text="Load Qaperfutils" />
                </children>
             </VBox>
+            <Button fx:id="backButton2211" layoutX="27.0" layoutY="640.0" mnemonicParsing="false" onAction="#backScene" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 30 30 30 30;" text="Deploy Log01">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton22112" layoutX="156.0" layoutY="640.0" mnemonicParsing="false" onAction="#backScene" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 30 30 30 30;" text="Deploy Log11">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
       <Line endX="702.0" layoutX="399.0" layoutY="52.0" startX="-100.0" stroke="#434343" />
@@ -200,17 +210,7 @@
       <TextField fx:id="oldestTosTicket" layoutX="433.0" layoutY="473.0" prefHeight="1.0" prefWidth="98.0" />
       <Line endX="-100.0" endY="218.5" layoutX="790.0" layoutY="-126.0" startX="-100.0" startY="178.5" />
       <Line endX="702.0" layoutX="399.0" layoutY="625.0" startX="-100.0" stroke="#434343" />
-      <Button fx:id="backButton221" layoutX="494.0" layoutY="640.0" mnemonicParsing="false" onAction="#backScene" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #434343; -fx-background-radius: 30 30 30 30;" text="Save" textFill="WHITE">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Button>
-      <Button fx:id="backButton2211" layoutX="641.0" layoutY="640.0" mnemonicParsing="false" onAction="#backScene" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #434343; -fx-background-radius: 30 30 30 30;" text="Deploy Log01" textFill="WHITE">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Button>
-      <Button fx:id="backButton22111" layoutX="784.0" layoutY="640.0" mnemonicParsing="false" onAction="#backScene" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #434343; -fx-background-radius: 30 30 30 30;" text="Deploy Log11" textFill="WHITE">
+      <Button fx:id="backButton221" layoutX="636.0" layoutY="640.0" mnemonicParsing="false" onAction="#backScene" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #434343; -fx-background-radius: 30 30 30 30;" text="Save" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
