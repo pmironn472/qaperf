@@ -38,7 +38,7 @@
                   <Insets />
                </opaqueInsets>
                <children>
-                  <Button fx:id="pteOneButton" mnemonicParsing="false" onAction="#pteOneScene" prefHeight="55.0" prefWidth="268.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 30 30 30 30;" text="PTE1" />
+                  <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="268.0" style="-fx-background-color: #37CBA1 #37CBA1; -fx-background-radius: 30 30 30 30;" text="PTE1" textFill="WHITE" />
                </children>
             </VBox>
             <VBox layoutX="13.0" layoutY="373.0" prefHeight="58.0" prefWidth="262.0">
@@ -46,7 +46,7 @@
                   <Insets />
                </opaqueInsets>
                <children>
-                  <Button fx:id="pteTwoButton" mnemonicParsing="false" onAction="#pteTwoScene" prefHeight="55.0" prefWidth="268.0" style="-fx-background-color: #37CBA1; -fx-background-radius: 30 30 30 30;" text="PTE2" textFill="WHITE" />
+                  <Button fx:id="pteTwoButton" mnemonicParsing="false" onAction="#pteTwoScene" prefHeight="55.0" prefWidth="268.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 30 30 30 30;" text="PTE2" />
                </children>
             </VBox>
             <VBox layoutX="57.0" layoutY="138.0" prefHeight="58.0" prefWidth="168.0">
